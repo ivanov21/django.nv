@@ -50,8 +50,8 @@ jobs:
         continue-on-error: true
 
 
-
-    sonarqube:
+  
+  sonarqube:
     runs-on: ubuntu-20.04
     steps:
     - uses: actions/checkout@v2
